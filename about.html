@@ -26,24 +26,53 @@
   <main class="container">
     <section class="section page-head">
       <h1>About KROTAL</h1>
-      <p class="section-sub">Replace this placeholder with a real description of the KROTAL project.</p>
+      <p class="section-sub">Autonomous FX trading systems, engineered for prop-firm survival.</p>
     </section>
 
     <section class="section">
-      <h2>What is it?</h2>
+      <h2>What is KROTAL?</h2>
       <p>
-        KROTAL is [your project description]. Add what it does, who it's for, and why
-        it exists. Keep it short and clear.
+        KROTAL is an <strong>autonomous FX trading system</strong>. It deploys self-operating
+        trading agents onto dedicated VPS infrastructure — purpose-built to pass FTMO
+        prop-firm challenges and run live capital. The stack is driven by an LLM decision
+        engine (CentCom) that ingests market data, produces ranked trade ideas with sized
+        risk, and routes orders to your broker around the clock.
+      </p>
+      <p>
+        Every deployment enforces FTMO challenge rules at the protocol level: max daily loss,
+        max overall loss, weekend and news lockouts, and trade-frequency throttles — so the
+        system works within the constraints of your challenge, not against them.
       </p>
     </section>
 
     <section class="section">
-      <h2>Features</h2>
+      <h2>The product lineup</h2>
+      <div class="cards">
+        <div class="card">
+          <span class="tag tag-announce">PKG_A</span>
+          <h3>KROTAL Centurion</h3>
+          <p>The full autonomous trading system on a dedicated Contabo Windows VPS, FTMO 200K · 3-Step optimized, with managed updates and monitoring.</p>
+        </div>
+        <div class="card">
+          <span class="tag tag-announce">PKG_B</span>
+          <h3>KROTAL Kopier</h3>
+          <p>A trade copier that mirrors CentCom master signals to your own FTMO account — proportional lot sizing, SL/TP and timing. No LLM keys required.</p>
+        </div>
+        <div class="card">
+          <span class="tag tag-announce">PKG_C</span>
+          <h3>KROTAL Krowd</h3>
+          <p>Group crowdsourced trading — pool resources with other traders, share infrastructure, keep your own FTMO account. Up to 12 seats per pool.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>The pipeline</h2>
       <ul class="feature-list">
-        <li>Feature one</li>
-        <li>Feature two</li>
-        <li>Feature three</li>
-        <li>Feature four</li>
+        <li>01 · INGEST — market data streamed into the KROTAL LLM decision engine.</li>
+        <li>02 · DECIDE — CentCom produces ranked trade ideas with sized risk.</li>
+        <li>03 · EXECUTE — orders routed through dedicated VPS to your FTMO broker.</li>
+        <li>04 · GUARD — DD-guard, news lock and kill-switch enforce challenge rules.</li>
       </ul>
     </section>
 
@@ -51,7 +80,8 @@
       <h2>Get involved</h2>
       <p>
         Join the <a href="index.html#discussions">community forum</a>, read the
-        <a href="docs.html">documentation</a>, or check out the repository.
+        <a href="docs.html">documentation</a>, or visit the main site at
+        <a href="https://krotal.systems">krotal.systems</a> to view pricing and packages.
       </p>
       <a class="btn btn-primary" href="index.html#discussions">Visit the forum</a>
     </section>
