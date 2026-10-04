@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KROTAL — Community</title>
+  <meta name="description" content="KROTAL community: announcements, discussions and documentation." />
+  <link rel="stylesheet" href="assets/style.css" />
+  <link rel="icon" type="image/png" href="assets/logo.png" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <img class="brand-logo" src="assets/logo.png" alt="KROTAL logo" />
+        <span class="brand-name">KROTAL</span>
+      </div>
+      <nav class="nav">
+        <a href="index.html" class="active">Home</a>
+        <a href="about.html">About</a>
+        <a href="docs.html">Docs</a>
+        <a href="#discussions">Forum</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h1>Welcome to the <span class="accent">KROTAL</span> community</h1>
+      <p class="hero-sub">
+        Announcements, help, feature requests and everything KROTAL — in one place.
+      </p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#discussions">Browse the forum</a>
+        <a class="btn btn-ghost" href="about.html">What is KROTAL?</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Cockpit instrument panel -->
+  <section class="instrument-panel" aria-label="Instrument panel">
+    <div class="container instrument-grid">
+      <div class="gauge" style="--val: 72;">
+        <div class="gauge-face">
+          <div class="gauge-ticks"></div>
+          <div class="gauge-needle"></div>
+          <div class="gauge-hub"></div>
+          <span class="gauge-value">72</span>
+        </div>
+        <span class="gauge-label">SYS. PWR</span>
+      </div>
+      <div class="gauge" style="--val: 41;">
+        <div class="gauge-face">
+          <div class="gauge-ticks"></div>
+          <div class="gauge-needle"></div>
+          <div class="gauge-hub"></div>
+          <span class="gauge-value">41</span>
+        </div>
+        <span class="gauge-label">UPLINK</span>
+      </div>
+      <div class="gauge" style="--val: 88;">
+        <div class="gauge-face">
+          <div class="gauge-ticks"></div>
+          <div class="gauge-needle"></div>
+          <div class="gauge-hub"></div>
+          <span class="gauge-value">88</span>
+        </div>
+        <span class="gauge-label">LOAD</span>
+      </div>
+      <div class="gauge" style="--val: 57;">
+        <div class="gauge-face">
+          <div class="gauge-ticks"></div>
+          <div class="gauge-needle"></div>
+          <div class="gauge-hub"></div>
+          <span class="gauge-value">57</span>
+        </div>
+        <span class="gauge-label">SIGNAL</span>
+      </div>
+
+      <div class="readout">
+        <div class="readout-row"><span class="ro-label">STATUS</span><span class="ro-value ro-ok">NOMINAL</span></div>
+        <div class="readout-row"><span class="ro-label">NODE</span><span class="ro-value">KRT-0042</span></div>
+        <div class="readout-row"><span class="ro-label">FREQ</span><span class="ro-value">2450.0 MHz</span></div>
+        <div class="readout-row"><span class="ro-label">TEMP</span><span class="ro-value">36.7°C</span></div>
+        <div class="readout-row"><span class="ro-label">MODE</span><span class="ro-value">SCAN</span></div>
+      </div>
+    </div>
+  </section>
+
+  <main class="container">
+    <section id="announcements" class="section">
+      <h2>📣 Announcements</h2>
+      <div class="cards">
+        <article class="card">
+          <span class="tag tag-announce">Announcement</span>
+          <h3>Welcome to the KROTAL community</h3>
+          <p>A space to discuss KROTAL, share ideas, and get help. This is a placeholder post — edit <code>index.html</code> to add your own.</p>
+          <a class="card-link" href="https://github.com/DeadRyan/KROTAL/discussions">Read more →</a>
+        </article>
+        <article class="card">
+          <span class="tag tag-announce">Announcement</span>
+          <h3>Getting started</h3>
+          <p>New to KROTAL? Start with the docs, then ask anything in the Q&amp;A section.</p>
+          <a class="card-link" href="docs.html">Open docs →</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="discussions" class="section">
+      <h2>💬 Forum — GitHub Discussions</h2>
+      <p class="section-sub">
+        The actual forum lives in <strong>GitHub Discussions</strong>. Threads, posts and replies
+        are organised into categories below. Click a category to jump straight in.
+      </p>
+      <div class="cards">
+        <a class="card card-clickable" href="https://github.com/DeadRyan/KROTAL/discussions/categories/general">
+          <h3>💬 General</h3>
+          <p>Anything and everything about KROTAL.</p>
+        </a>
+        <a class="card card-clickable" href="https://github.com/DeadRyan/KROTAL/discussions/categories/q-a">
+          <h3>🙏 Q&amp;A</h3>
+          <p>Questions and answers. Ask away.</p>
+        </a>
+        <a class="card card-clickable" href="https://github.com/DeadRyan/KROTAL/discussions/categories/announcements">
+          <h3>🚀 Announcements</h3>
+          <p>Official news and release notes.</p>
+        </a>
+        <a class="card card-clickable" href="https://github.com/DeadRyan/KROTAL/discussions/categories/ideas">
+          <h3>💡 Ideas</h3>
+          <p>Feature requests and suggestions.</p>
+        </a>
+      </div>
+      <p class="hint">
+        Pssst — the category URLs above are placeholders. Replace
+        <code>DeadRyan/KROTAL</code> with the real repo your Discussions live in.
+      </p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>KROTAL community · Powered by <a href="https://pages.github.com">GitHub Pages</a> + <a href="https://docs.github.com/en/discussions">GitHub Discussions</a></p>
+    </div>
+  </footer>
+
+  <script>
+    // Live cockpit needle animation
+    (function () {
+      var gauges = document.querySelectorAll('.gauge');
+      var values = [];
+
+      gauges.forEach(function (g, i) {
+        var base = parseInt(g.getAttribute('style').match(/--val:\s*(\d+)/)[1], 10);
+        values.push(base);
+      });
+
+      function setVal(g, v) {
+        g.style.setProperty('--val', v);
+        var valEl = g.querySelector('.gauge-value');
+        if (valEl) valEl.textContent = Math.round(v);
+      }
+
+      function tick() {
+        gauges.forEach(function (g, i) {
+          var target = values[i] + (Math.random() * 22 - 11); // quiver +-11
+          target = Math.max(6, Math.min(94, target));
+          setVal(g, target);
+        });
+      }
+
+      setInterval(tick, 1600);
+
+      // Temperature readout drift
+      var tempEl = Array.prototype.find.call(
+        document.querySelectorAll('.ro-value'),
+        function (el) { return /°C/.test(el.textContent); }
+      );
+      if (tempEl) {
+        var temp = 36.7;
+        setInterval(function () {
+          temp += (Math.random() * 0.6 - 0.3);
+          tempEl.textContent = temp.toFixed(1) + '°C';
+        }, 2200);
+      }
+    })();
+  </script>
+</body>
+</html>

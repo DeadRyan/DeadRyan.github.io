@@ -1,0 +1,17 @@
+# Jekyll configuration for the KROTAL community site.
+# (Optional — only used if you enable Jekyll builds later.)
+
+title: KROTAL — Community
+description: Announcements, discussions and documentation for KROTAL.
+baseurl: ""            # user/org site -> leave empty
+url: "https://deadryan.github.io"
+
+# Build settings
+markdown: kramdown
+markdown_ext: markdown,mkdown,mkdn,mkd,md
+highlighter: rouge
+
+# Exclude from the generated site
+exclude:
+  - README.md
+  - LICENSE
